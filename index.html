@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single page responsive Website</title>
+</head>
+<link rel="stylesheet" href="style/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/logo.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li> <a href="">HOME</a> </li>
+                    <li> <a href="">PROJECTS</a> </li>
+                    <li> <a href="">PRICING</a> </li>
+                    <li> <a href="">TEAM</a> </li>
+                    <li> <a href="">BLOG</a> </li>
+                    <li> <a href="">CONTACT</a> </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text-box">
+            <h1>One page promising to <br> fill all your needs!</h1>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit Laboriosam optio animi nisi minima
+            </h6>
+            <button type="button" class=btn btn-warning btn-lg mx-2 my-4>Learn More</button>
+            <button type="button" class=btn btn-primary btn-lg mx-2 my-4>Learn More</button>
+        </div>
+    </section>
+
+
+    <!-------- Welcome to zippy -------->
+
+    <section class="about">
+        <h1>Welcome to Zippy</h1>
+        <div class="start">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Atque voluptates, quod animi laboriosam optio accusamus <br>voluptas voluptatibus aliquam repellat quibusdam, illum <br>ducimus suscipit voluptatem magni. Atque quod, commodi <br>corrupti
+                veniam tempore architecto non deleniti esse fuga sed
+                <br> quae rem placeat.</p>
+            <img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/umbrella.png" alt="">
+        </div>
+
+        <div class="row">
+            <div class="about-col">
+                <img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/bell.png" alt="">
+                <h3>LOREM IPSUM</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti sed quisquam consequatur molestias, numquam laboriosam alias, et nostrum commodi corporis hic accusantium itaque odio. Laudantium velit excepturi delectus iure, culpa molestias
+                    impedit deleniti inventore rerum voluptatum enim dolorem ut earum!</p>
+                <button type="button" class=btn btn-warning btn-lg mx-2 my-4>Learn More</button>
+            </div>
+
+            <div class="about-col">
+                <img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/message.png" alt="">
+                <h3>DOLOR SIT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eos aspernatur obcaecati voluptatem voluptatibus consequuntur aliquid, dolores dicta ullam mollitia quos repudiandae repellendus voluptate. Aperiam, dolorem sequi eveniet eius
+                    minus magni sit quaerat doloremque doloribus quis laboriosam magnam velit qui!</p>
+                <button type="button" class=btn btn-warning btn-lg mx-2 my-4>Learn More</button>
+            </div>
+
+            <div class="about-col">
+                <img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/drawer.png" alt="">
+                <h3>CONSECTETURE</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum enim commodi eveniet repellendus, amet suscipit mollitia dolores maiores sequi nostrum reprehenderit explicabo magni iusto corporis nobis! Possimus dolores sunt ex non fugiat
+                    esse aperiam aliquid exercitationem, officiis facere dolore? Alias officiis facere dolore? Alias.</p>
+                <button type="button" class=btn btn-warning btn-lg mx-2 my-4>Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    <!-------------------- Projects ----------------->
+
+    <section class="projects">
+        <h1>Projects</h1>
+
+        <div class="row">
+            <div class="project-col">
+                <img src="data:image/png;base64,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"
+                    alt="">
+                <h3>PROJECT NAME</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque, repellendus eaque soluta suscipit magnam cumque ratione blanditiis aperiam aut.</p>
+                <button type="button" class=btn btn-warning btn-lg mx-2 my-4>LAUNCH CASE STUDY</button>
+            </div>
+
+            <div class="project-col">
+                <img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/mobile1.jpg" alt="mob">
+                <h3>PROJECT NAME</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque, repellendus eaque soluta suscipit magnam cumque ratione blanditiis aperiam aut.</p>
+                <button type="button" class=btn btn-warning btn-lg mx-2 my-4>LAUNCH CASE STUDY</button>
+            </div>
+
+            <div class="project-col">
+                <img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/screen1.jpg" alt="screen">
+                <h3>PROJECT NAME</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque, repellendus eaque soluta suscipit magnam cumque ratione blanditiis aperiam aut.</p>
+                <button type="button" class=btn btn-warning btn-lg mx-2 my-4>LAUNCH CASE STUDY</button>
+            </div>
+
+            <div class="project-col">
+                <img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/tech1.jpg" alt="">
+                <h3>PROJECT NAME</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque, repellendus eaque soluta suscipit magnam cumque ratione blanditiis aperiam aut.</p>
+                <button type="button" class=btn btn-warning btn-lg mx-2 my-4>LAUNCH CASE STUDY</button>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <section class="pricing">
+        <h1>Pricing Table</h1>
+
+        <div class="row">
+            <div class="price-col">
+
+                <h3>STANDARD PLAN</h3>
+                <h4>Free</h4>
+                <ul>
+                    <li>2GB Available</li>
+                    <li>15 max contacts</li>
+                    <li>30 messages/month</li>
+                    <li>Ongoing Ads</li>
+                </ul>
+                <button type="button" class=btn btn-warning btn-lg mx-2 my-4>BUY</button>
+                <div class="line"></div>
+
+            </div>
+
+            <div class="vl"></div>
+
+            <div class="price-col">
+                <h3>BUSINESS PLAN</h3>
+                <h4>19$/MONTH</h4>
+                <ul>
+                    <li>10GB Available</li>
+                    <li>25 max contacts</li>
+                    <li>120 messages/month</li>
+                    <li>Ads Free</li>
+                </ul>
+                <button type="button" class=btn btn-warning btn-lg mx-2 my-4>BUY</button>
+                <div class="line"></div>
+            </div>
+
+            <div class="vl"></div>
+
+            <div class="price-col">
+                <h3>PREMIUM PLAN</h3>
+                <h4>14$/MONTH</h4>
+                <ul>
+                    <li>100GB Available</li>
+                    <li>Unlimited Contacts</li>
+                    <li>Unlimited messages/month</li>
+                    <li>Ads Free</li>
+                </ul>
+                <button type="button" class=btn btn-warning btn-lg mx-2 my-4>BUY</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="video-proj">
+        <div class="container">
+            <h1>Video Projects</h1>
+            <div class="owl-carousel">
+                <div class="item-video" data-merge="1">
+                    <a class="owl-video" href="https://youtu.be/JeSfhnhbcBc"></a>
+                </div>
+
+                <div class="item-video" data-merge="1">
+                    <a class="owl-video" href="https://youtu.be/_crZKGMT6Mo"></a>
+                </div>
+
+                <div class="item-video" data-merge="1">
+                    <a class="owl-video" href="https://youtu.be/JXtnmgRDEPo"></a>
+                </div>
+                <div class="item-video" data-merge="1">
+                    <a class="owl-video" href="https://youtu.be/m9LKX9yE3r0"></a>
+                </div>
+
+                <div class="item-video" data-merge="1">
+                    <a class="owl-video" href="https://youtu.be/JeSfhnhbcBc"></a>
+                </div>
+
+                <div class="item-video" data-merge="1">
+                    <a class="owl-video" href="https://youtu.be/_crZKGMT6Mo"></a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- javascript -->
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+        <script type="text/javascript">
+            $(".owl-carousel").owlCarousel({
+                merge: true,
+                loop: true,
+                margin: 10,
+                video: true,
+                lazyLoad: true,
+                center: true,
+
+            });
+        </script>
+    </section>
+
+
+    <h1>Zippy Team</h1>
+
+
+    <div class="team">
+
+        <div class="team-col">
+            <img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/user11.png" alt="">
+            <p>SARA JOHNSON</p>
+            <p>Creative Head</p>
+        </div>
+
+        <div class="team-col">
+            <img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/user22.png" alt="">
+            <p>MATT ALEX</p>
+            <p>Art Director</p>
+        </div>
+
+        <div class="team-col">
+            <img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/user33.png" alt="">
+            <p>CHRIS PHILIPS</p>
+            <p>Senior Designer</p>
+        </div>
+
+        <div class="team-col">
+            <img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/user44.png" alt="">
+            <p>JIMMY SMITH</p>
+            <p>Marketing Manager</p>
+
+        </div>
+
+        <div class="team-col">
+            <img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/user55.png" alt="">
+            <p>ALIZA</p>
+            <p>SEO MONSTER</p>
+
+        </div>
+
+        <div class="team-col">
+            <img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/user66.png" alt="">
+            <p>CELIEN JOHN</p>
+            <p>Senior Designer</p>
+
+        </div>
+    </div>
+
+
+    <section class="life">
+        <h1>Life in Zippy</h1>
+        <div class="slider">
+            <figure>
+                <img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/slide.jpg">
+                <img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/slide2.jpg">
+                <img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/slide3.jpg">
+                <img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/slide4.jpg">
+            </figure>
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="newsletter">
+            <div class="newsletter-contents">
+                <h2>Newsletter Signup</h2>
+                <div class="int1">
+                    <input type="text" name="email" id="email" class="int" placeholder="Enter your email">
+                    <button class="btn btn-dark int1">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <h1>Blog</h1>
+    <div class="row">
+        <div class="blog-col">
+            <img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/blog1.jpg" alt="">
+            <div class="blog-text">
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <h4> 15 Jan , 2015</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo quasi est odit enim cupiditate corporis explicabo ipsa adipisci fugit ipsum.</p>
+            </div>
+            <button type="button" class=btn btn-warning btn-lg mx-2 my-4>READ MORE</button>
+        </div>
+
+        <div class="blog-col">
+            <img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/blog2.jpg" alt="">
+            <div class="blog-text">
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <h4> 15 Jan , 2015</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo quasi est odit enim cupiditate corporis explicabo ipsa adipisci fugit ipsum.</p>
+            </div>
+            <button type="button" class=btn btn-warning btn-lg mx-2 my-4>READ MORE</button>
+        </div>
+
+        <div class="blog-col">
+            <img src="https://raw.githubusercontent.com/srishti666/LGMVIP-WebDev-task-1/master/img/blog3.jpg" alt="">
+            <div class="blog-text">
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <h4> 15 Jan , 2015</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis totam alias possimus minima ut illum, consequatur nisi itaque repellat veritatis?</p>
+            </div>
+            <button type="button" class=btn btn-warning btn-lg mx-2 my-4>READ MORE</button>
+        </div>
+    </div>
+
+
+    <section class="contact-in">
+        <div class="contact">
+            <h1>Contact</h1>
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d224346.48138755886!2d77.0688995!3d28.5272803!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1634813566477!5m2!1sen!2sin"
+                    width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="contact-form"></div>
+
+            <form>
+                <input type="text" placeholder="NAME" class="contact-form-text" />
+                <input type="text" placeholder="EMAIL ADDRESS" class="contact-form-text" />
+                <input type="text" placeholder="SUBJECT" class="contact-form-text" />
+                <textarea placeholder="MESSAGE" class="contact-form-textarea"></textarea>
+                <input type="submit" name="SEND" class="contact-form-btn" />
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="row">
+            <div class="foot">
+                <h3>OFFICE ADDRESS</h3>
+                <ul>
+                    <li>Lorem Ipsum dolor,123</li>
+                    <li>1200 Consecture</li>
+                    <li>Adipsching</li>
+                </ul>
+            </div>
+
+            <div class="foot">
+                <h3>FOLLOW US</h3>
+                <div class="foot1">
+                    <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" />
+                    <img src="https://img.icons8.com/material-outlined/24/000000/facebook-new.png" />
+                    <img src="https://img.icons8.com/material-outlined/30/000000/instagram-new.png" />
+                    <img src="https://img.icons8.com/material-rounded/24/000000/google-logo.png" />
+                    <img src="https://img.icons8.com/ios-glyphs/24/000000/twitter.png" />
+                    <img src="https://img.icons8.com/material-rounded/30/000000/youtube-play.png" />
+                </div>
+            </div>
+
+            <div class="foot">
+                <h3>CONTACT US</h3>
+                <ul>
+                    <li>+ 123 456 789</li>
+                    <li>zippy@skype</li>
+                    <li>enquiry@zippy.com</li>
+                </ul>
+            </div>
+
+    </section>
+</body>
+
+</html>
