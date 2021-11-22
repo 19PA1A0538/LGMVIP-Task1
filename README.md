@@ -1,2 +1,2 @@
-# LgmVip
+# LGMVIP
 Web Development Internship
